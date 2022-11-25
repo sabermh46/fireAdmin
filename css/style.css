@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Poppins&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;;
+        }
+        :root {
+            --text: rgb(63, 72, 13);
+        }
+        body {
+            background: radial-gradient(rgb(173, 173, 173), rgb(120, 120, 120));
+            min-height: 100vh;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        .ap
+        {
+            text-decoration: none;
+            font-family: 'Mochiy Pop One', sans-serif;
+            color: var(--text);
+            transition: 0.5s;
+        }
+        .ap:hover {
+            color: black;
+        }
+
+        .header {
+            text-align: center;
+            font-family: 'Mochiy Pop One', sans-serif;
+            width: max-content;
+            margin: 10px auto;
+            padding: 10px 30px;
+            background: rgb(255, 206, 132);
+            border-radius: 30px;
+            color: var(--text)
+        }
+
+        /* section */
+        .section {
+            width: 80%;
+            margin: 20px auto;
+            background: rgba(255, 255, 255, 0.583);
+            border: 1px solid white;
+            padding: 20px;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .section .title {
+            font-size: 24px;
+            font-weight: 600;
+            letter-spacing: 2px;
+            padding-bottom: 10px;
+        }
+
+
+
+        /* section end */
+
+
+        /* News */
+        .news {
+            padding: 20px;
+            background: rgba(221, 248, 255, 0.764);
+            margin-bottom: 10px;
+            border-radius: 6px;
+        }
+        .news .heading {
+            font-size: 30px;
+            font-weight: 900;
+        }
+        .news .sub_heading {
+            display: flex;
+            justify-content: space-between;
+            padding: 5px 0;
+            font-size: 14px;
+            color: gray;
+        }
+        .news .details {
+            padding: 5px 0;
+        }
+
+        /* News end */
